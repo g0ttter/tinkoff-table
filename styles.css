@@ -1,0 +1,48 @@
+body {
+  min-width: 320px;
+  font-family: 'Charter';
+  font-size: 17px;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%);
+  margin:0;
+  overflow-x:hidden;
+}
+
+h1 {
+  font-size: 17px;
+  font-family: Graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.date {
+  text-align: left;
+  font-weight: 600;
+}
+
+.mobile-table {
+  display: table;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.mobile-table__section {
+  padding: 4px 0;
+}
+
+.mobile-table__row {
+  display: table-row;
+}
+
+.mobile-table__key, .mobile-table__value {
+  display: table-cell;
+}
+
+.mobile-table__key {
+  max-width: 35%;
+}
+
+.mobile-table__value {
+  max-width: 80%;
+  padding-left: 8px;
+}
